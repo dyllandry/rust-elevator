@@ -1,2 +1,11 @@
-☐ model an elevator's data
-☐ add new method & implement default trait
+todo now:
+    ✔ model an elevator's data @done(22-08-15 20:30)
+        elevator
+            floor: int
+            direction: up/down option
+            pickup_requests: what floor they are on and if they want to go up or down
+            dropoff_requests: what floor they want to go to
+    ☐ design basic "tick" system for elevator
+        The elevator does not need an intelligent way of determining where to go next. For now, it can just process all pickup requests before it processes any dropoff requests.
+future todo:
+    ☐ create tui
